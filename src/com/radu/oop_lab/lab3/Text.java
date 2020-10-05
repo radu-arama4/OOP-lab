@@ -58,7 +58,7 @@ public class Text {
         return nrOfConsonants()+nrOfVowels();
     }
 
-    public int topFiveWords(){
+    public void topFiveWords(){
         String[] words = text.split("\\W+");
         for(String word:words){
             Word newWord = new Word(word);
@@ -89,8 +89,6 @@ public class Text {
         for(int i=0;i<5;i++){
             System.out.println(wordsList.get(i).getWord() + "  occurs " + wordsList.get(i).getNr() + " times.");
         }
-
-        return 0;
     }
 
     public String getLongest(){
