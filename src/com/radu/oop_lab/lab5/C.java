@@ -22,4 +22,10 @@ public class C extends B {
         //System.out.println(c);
         super.printValue();
     }
+
+    public void printValue(boolean justC){
+        if(justC){
+            System.out.println("State of C: " + c);
+        }
+    }
 }

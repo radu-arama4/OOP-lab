@@ -15,7 +15,6 @@ public class A {
     }
 
     public void printValue(){
-        System.out.println("State of A" + ": " + a + ", x - " + this.x.getX());
-        System.out.println("In a clever way.");
+        System.out.println("State of A: " + a + ", x - " + this.x.getX());
     }
 }

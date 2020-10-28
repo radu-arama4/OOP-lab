@@ -18,13 +18,13 @@ public class B extends A{
 
     @Override
     public void printValue() {
-        System.out.println("State of B" + ": " + b);
+        System.out.println("State of B: " + b);
         super.printValue();
     }
 
     public void printValue(boolean justB){
         if(justB){
-            System.out.println(b);
+            System.out.println("State of B: " + b);
         }
     }
 }
